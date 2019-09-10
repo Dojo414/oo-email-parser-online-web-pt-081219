@@ -9,7 +9,7 @@ class EmailAddressParser
     @emails = email_adresses
   end
   
-  def self.parse
+  def parse
     new_array = @emails.split(",")
     new_array
   end

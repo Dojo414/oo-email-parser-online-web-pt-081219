@@ -10,7 +10,7 @@ class EmailAddressParser
   end
   
   def parse
-    new_array = @emails.gsub(/[\s,]/)
+    new_array = @emails.gsub(/[\s,]/, " ")
     new_array
   end
   
